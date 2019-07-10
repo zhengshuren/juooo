@@ -1,0 +1,66 @@
+import styled from "styled-components";
+
+export const All=styled.div`
+*{
+margin:0;
+padding:0;
+}
+.head{
+    position:relative;
+    border-bottom:1px solid #ccc;
+    .headImg1{
+        margin-left:10px;
+        margin-top:2px;
+    }
+    .headSpan{
+        position:absolute;
+        top:9px;
+        font-size:18px;
+        margin-left:115px;
+    }
+    .headImg2{
+        position:absolute;
+        top:9px;
+        right:15px;
+        width:22px;
+    }
+}
+.jifenmingxi{
+    height:70px;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    .jifenmingxiImg{
+        position:absolute;
+        top:26px;
+        left:174px;
+        width:15px;
+    }
+    .jifenmingxiText{
+        position:absolute;
+        top:20px;
+        left:195px;
+        font-size:22px;
+        font-weight:600;
+    }
+    .jifenmingxiTo{
+        position:absolute;
+        top:26px;
+        left:305px;
+        font-size:12px;
+        color:#b2b2bc;
+    }
+}
+.city{
+    height:45px;
+    .cityP{
+        height:33px;
+        width:107.5px;
+        float:left;
+        padding-left:80px;
+        padding-top:12px;
+        >img{
+            width:9.5px;
+        }
+    }
+}
+`
